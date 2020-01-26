@@ -2,12 +2,45 @@
   padding-top:10px;
 }
 
+.logoFont{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:mintcream;
+}
+
+.welcomeFont{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:mintcream;
+  padding-right: 10px;
+}
+
+.navbar{
+  border-radius: 5px;
+}
+
 .loginBtn{
-  border: 2px solid grey;
-  color: #007bff;
+  border-radius: 5px ;
+  background-color: darkslategray;
+  padding-right: 10px;
 }
 
 .loginModalHeader{
   background-color:#007bff;
   font-size: large;
 }
+
+.navLeft{
+  float: left;
+}
+
+.verticalBar{
+  border-right: 1px solid grey;
+  height : 40px;
+}
+
+.socialIcon{
+  color: mintcream;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+

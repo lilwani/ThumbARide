@@ -4,9 +4,23 @@
 <body class="topSpace">
   <div class="container-fluid">
 
-    <nav class="navbar bg-dark">
+    <nav class="navbar bg-dark navbar-expand-sm">
       <div class="container-fluid">
-        <a href="#" class="navbar-brand"><i class="fa fa-car fa-lg"></i></a>
+
+        <ul class="nav navbar-nav">
+          <button class="navbar-brand logoFont loginBtn">ThumbARide  <i class="fa fa-car fa-lg"></i></button>
+          <div class="verticalBar"></div>
+          <button class="btn"><i class="fa fa-facebook fa-lg socialIcon" ></i> </button>
+          <div class="verticalBar"></div>
+          <button class="btn"><i class="fa fa-twitter fa-lg socialIcon" ></i> </button>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <!-- Implement login / logout switch logic -->
+          <button class="btn navbar-btn welcomeFont loginBtn">Logout</button>
+          <div class="verticalBar"></div>
+          <button class="btn navbar-btn welcomeFont loginBtn" click="login()">Login</button>
+        </ul>
 
 
         <!-- Using Modal instead of a component
@@ -64,5 +78,6 @@
       </nav> -->
 
   </div>
+
   <router-outlet></router-outlet>
 </body>
