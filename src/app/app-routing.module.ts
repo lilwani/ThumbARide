@@ -3,8 +3,9 @@ import { Routes, RouterModule } from '@angular/router';
 
 // import {loginComponent} from 'loginPage' and all the other compnents you generate
 
-const routes: Routes = [];
-
+const routes: Routes = [
+  // {path: 'login' , component : loginComponent}
+];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
