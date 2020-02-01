@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+
 // import {loginComponent} from 'loginPage' and all the other compnents you generate
 
 const routes: Routes = [
@@ -12,5 +13,5 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 
-//export const routingArray = [ 'loginComponent' ] ;
+// export const routingArray = [ 'loginComponent' ] ;
 // add the components in this array and use it in app module
