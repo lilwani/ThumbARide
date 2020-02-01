@@ -14,7 +14,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    // routingArray
+    // routingArray const added
   ],
   providers: [],
   bootstrap: [AppComponent]
