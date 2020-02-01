@@ -13,4 +13,4 @@ const routes: Routes = [
 export class AppRoutingModule { }
 
 export const routingArray = [ 'loginComponent' ] ;
-// without quotation and then use this array in app.module
+// without quotation and then use this array in app.modules
