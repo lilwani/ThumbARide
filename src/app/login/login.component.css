@@ -1,5 +1,28 @@
 .container{
-  position: absolute;
-  top:50%;
-  left:50%;
+  position: relative;
+  top:150px;
+  width:70%;
+}
+
+.logoFont{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:mintcream;
+}
+
+.btn{
+  border-radius: 5px ;
+  background-color: darkslategray;
+  padding-right: 10px;
+}
+
+.user{
+  padding: 5px;
+}
+
+.form-group{
+  padding:10px;
+}
+
+.tbox{
+  border-radius: 5px;
 }
