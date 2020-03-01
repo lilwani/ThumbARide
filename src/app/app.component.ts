@@ -16,4 +16,9 @@ export class AppComponent {
   login() {
     this._router.navigate( ['/login'] );
   }
+
+  toWelcome() {
+    this._router.navigate( ['/welcome'] );
+  }
+
 }

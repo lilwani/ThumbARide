@@ -1,0 +1,20 @@
+.logoFont{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:mintcream;
+}
+
+.container{
+  position: relative;
+  top:150px;
+  width:70%;
+}
+
+.alignContent{
+  text-align: center;
+}
+
+.contents{
+  display: inline-block;
+}
+
+

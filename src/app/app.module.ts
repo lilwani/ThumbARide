@@ -6,11 +6,13 @@ import { AppRoutingModule, routingArray } from './app-routing.module';
 // add  routingArray  from './app-routing.module' to import above. './' one dot represents current directory;
 
 import { AppComponent } from './app.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    routingArray
+    routingArray,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,
