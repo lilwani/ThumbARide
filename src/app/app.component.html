@@ -16,11 +16,9 @@
         </ul>
 
         <ul class="nav navbar-nav navbar-right">
-          <!-- Implement login / logout switch logic -->
-          <button class="btn navbar-btn welcomeFont loginBtn">Logout</button>
-          <div class="verticalBar"></div>
-          <!-- Method 1 to login : <a routerLink="/login"><button class="btn navbar-btn welcomeFont loginBtn">Login</button></a> -->
-          <button class="btn navbar-btn welcomeFont loginBtn" (click)="login()">Login</button>
+          <li><span class="logoFont" id="welcome">Welcome {{uname}}</span></li>
+          <label class="verticalBar" style="margin-left: 10px; margin-right: 10px;"></label>
+          <li><button class="btn navbar-btn welcomeFont loginBtn"  (click)="login()">{{loginTitle}}</button></li>
         </ul>
 
         <!-- Using Modal instead of a component

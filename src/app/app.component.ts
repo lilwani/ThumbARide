@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, DoCheck } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -7,11 +7,21 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 
-export class AppComponent {
+export class AppComponent implements DoCheck {
+
   title = 'ThumbARide';
+  welcome = 'Welcome ';
+  loginTitle = 'Login';
+  uname: string;
+
 
   // tslint:disable-next-line: variable-name
-  constructor(private _router: Router ) {}
+  constructor(private _router: Router ) {
+  }
+
+  ngDoCheck(): void {
+    this.uname = sessionStorage.getItem('uname');
+  }
 
   login() {
     this._router.navigate( ['/login'] );
