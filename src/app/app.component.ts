@@ -14,9 +14,9 @@ export class AppComponent implements DoCheck {
   loginTitle = 'Login';
   uname: string;
 
-
   // tslint:disable-next-line: variable-name
   constructor(private _router: Router ) {
+
   }
 
   ngDoCheck(): void {

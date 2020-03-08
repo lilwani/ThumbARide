@@ -16,9 +16,9 @@
         </ul>
 
         <ul class="nav navbar-nav navbar-right">
-          <li><span class="logoFont" id="welcome">Welcome {{uname}}</span></li>
+          <li><span class="logoFont" id="welcome" style="display: None;">Welcome {{uname}}</span></li>
           <label class="verticalBar" style="margin-left: 10px; margin-right: 10px;"></label>
-          <li><button class="btn navbar-btn welcomeFont loginBtn"  (click)="login()">{{loginTitle}}</button></li>
+          <li><button id="login" class="btn navbar-btn welcomeFont loginBtn"  (click)="login()">{{loginTitle}}</button></li>
         </ul>
 
         <!-- Using Modal instead of a component

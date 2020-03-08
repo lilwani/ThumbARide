@@ -29,10 +29,13 @@
           <div class="form-group offset-4">
               <button type="submit" class="btn logoFont" [disabled]="!loginForm.form.valid" (click)='onSubmit()'>Login</button>
               <span class="col-sm-2"></span>
-              <button type="reset" class="btn logoFont">Reset</button>
+              <button type="reset" class="btn logoFont" (click)="valid = true">Reset</button>
           </div>
 
         </form>
+      </div>
+      <div *ngIf="!valid" class="card-footer" >
+        <span class="err" style="color:red;">Invalid Credentials...Please try again</span>
       </div>
     </div>
   </div>
